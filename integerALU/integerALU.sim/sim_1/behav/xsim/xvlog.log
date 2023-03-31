@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/evanr/OneDrive - Texas State University/Desktop/EE4321HDL/A5_SmithEvan/IntegerAlu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IntegerAlu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/evanr/OneDrive - Texas State University/Desktop/EE4321HDL/A5_SmithEvan/int_assign_TB.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TestInteger
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/evanr/OneDrive - Texas State University/Desktop/EE4321HDL/A5_SmithEvan/int_assign_Top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top

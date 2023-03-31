@@ -1,0 +1,5 @@
+Time resolution is 1 ps
+Stopped at time : 50 ns : File "C:/Users/evanr/OneDrive - Texas State University/Desktop/EE4321HDL/A5_SmithEvan/IntegerAlu.sv" Line 62
+Stopped at time : 60 ns : File "C:/Users/evanr/OneDrive - Texas State University/Desktop/EE4321HDL/A5_SmithEvan/IntegerAlu.sv" Line 62
+System test passed
+$finish called at time : 292 ns : File "C:/Users/evanr/OneDrive - Texas State University/Desktop/EE4321HDL/A5_SmithEvan/int_assign_TB.sv" Line 177

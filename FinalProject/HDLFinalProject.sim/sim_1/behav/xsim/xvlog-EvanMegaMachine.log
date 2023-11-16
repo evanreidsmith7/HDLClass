@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/ExeEngine.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Execution
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/Instruct.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/IntegerAlu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IntegerAlu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/MainMem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MainMemory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/MatrixAlu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MatrixAlu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/testBench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TestMatrix
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/Top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/HDLFinalProject.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

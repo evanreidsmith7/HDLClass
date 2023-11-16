@@ -1,0 +1,146 @@
+
+*** Running vivado
+    with args -log top.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: open_checkpoint {C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/HDLFinalProject.runs/impl_1/top.dcp}
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.093 . Memory (MB): peak = 802.633 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 237 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 915.027 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2022.2 (64-bit) build 3671981
+OpenCheckpoint Checksum | Checksum: f6ac187e
+----- Checksum: PlaceDB: 00000000 ShapeSum: f6ac187e RouteDB: 00000000 
+open_checkpoint: Time (s): cpu = 00:00:04 ; elapsed = 00:00:12 . Memory (MB): peak = 919.082 ; gain = 586.250
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k70t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][0] has multiple drivers: U3/InternalReg_reg[1][0]/Q, and U3/InternalReg_reg[1][0]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][100] has multiple drivers: U3/InternalReg_reg[1][100]__0/Q, and U3/InternalReg_reg[1][100]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][101] has multiple drivers: U3/InternalReg_reg[1][101]__0/Q, and U3/InternalReg_reg[1][101]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][102] has multiple drivers: U3/InternalReg_reg[1][102]/Q, and U3/InternalReg_reg[1][102]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][103] has multiple drivers: U3/InternalReg_reg[1][103]/Q, and U3/InternalReg_reg[1][103]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][104] has multiple drivers: U3/InternalReg_reg[1][104]__0/Q, and U3/InternalReg_reg[1][104]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][105] has multiple drivers: U3/InternalReg_reg[1][105]__0/Q, and U3/InternalReg_reg[1][105]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][106] has multiple drivers: U3/InternalReg_reg[1][106]__0/Q, and U3/InternalReg_reg[1][106]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][107] has multiple drivers: U3/InternalReg_reg[1][107]/Q, and U3/InternalReg_reg[1][107]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][108] has multiple drivers: U3/InternalReg_reg[1][108]/Q, and U3/InternalReg_reg[1][108]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][109] has multiple drivers: U3/InternalReg_reg[1][109]__0/Q, and U3/InternalReg_reg[1][109]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][10] has multiple drivers: U3/InternalReg_reg[1][10]/Q, and U3/InternalReg_reg[1][10]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][110] has multiple drivers: U3/InternalReg_reg[1][110]/Q, and U3/InternalReg_reg[1][110]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][111] has multiple drivers: U3/InternalReg_reg[1][111]/Q, and U3/InternalReg_reg[1][111]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][112] has multiple drivers: U3/InternalReg_reg[1][112]__0/Q, and U3/InternalReg_reg[1][112]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][113] has multiple drivers: U3/InternalReg_reg[1][113]/Q, and U3/InternalReg_reg[1][113]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][114] has multiple drivers: U3/InternalReg_reg[1][114]/Q, and U3/InternalReg_reg[1][114]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][115] has multiple drivers: U3/InternalReg_reg[1][115]__0/Q, and U3/InternalReg_reg[1][115]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][116] has multiple drivers: U3/InternalReg_reg[1][116]__0/Q, and U3/InternalReg_reg[1][116]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][117] has multiple drivers: U3/InternalReg_reg[1][117]__0/Q, and U3/InternalReg_reg[1][117]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][118] has multiple drivers: U3/InternalReg_reg[1][118]__0/Q, and U3/InternalReg_reg[1][118]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][119] has multiple drivers: U3/InternalReg_reg[1][119]/Q, and U3/InternalReg_reg[1][119]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][11] has multiple drivers: U3/InternalReg_reg[1][11]__0/Q, and U3/InternalReg_reg[1][11]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][120] has multiple drivers: U3/InternalReg_reg[1][120]/Q, and U3/InternalReg_reg[1][120]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][121] has multiple drivers: U3/InternalReg_reg[1][121]__0/Q, and U3/InternalReg_reg[1][121]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][122] has multiple drivers: U3/InternalReg_reg[1][122]/Q, and U3/InternalReg_reg[1][122]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][123] has multiple drivers: U3/InternalReg_reg[1][123]/Q, and U3/InternalReg_reg[1][123]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][124] has multiple drivers: U3/InternalReg_reg[1][124]__0/Q, and U3/InternalReg_reg[1][124]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][125] has multiple drivers: U3/InternalReg_reg[1][125]/Q, and U3/InternalReg_reg[1][125]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][126] has multiple drivers: U3/InternalReg_reg[1][126]__0/Q, and U3/InternalReg_reg[1][126]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][127] has multiple drivers: U3/InternalReg_reg[1][127]/Q, and U3/InternalReg_reg[1][127]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][128] has multiple drivers: U3/InternalReg_reg[1][128]/Q, and U3/InternalReg_reg[1][128]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][129] has multiple drivers: U3/InternalReg_reg[1][129]__0/Q, and U3/InternalReg_reg[1][129]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][12] has multiple drivers: U3/InternalReg_reg[1][12]/Q, and U3/InternalReg_reg[1][12]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][130] has multiple drivers: U3/InternalReg_reg[1][130]/Q, and U3/InternalReg_reg[1][130]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][131] has multiple drivers: U3/InternalReg_reg[1][131]/Q, and U3/InternalReg_reg[1][131]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][132] has multiple drivers: U3/InternalReg_reg[1][132]/Q, and U3/InternalReg_reg[1][132]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][133] has multiple drivers: U3/InternalReg_reg[1][133]/Q, and U3/InternalReg_reg[1][133]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][134] has multiple drivers: U3/InternalReg_reg[1][134]/Q, and U3/InternalReg_reg[1][134]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][135] has multiple drivers: U3/InternalReg_reg[1][135]__0/Q, and U3/InternalReg_reg[1][135]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][136] has multiple drivers: U3/InternalReg_reg[1][136]/Q, and U3/InternalReg_reg[1][136]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][137] has multiple drivers: U3/InternalReg_reg[1][137]/Q, and U3/InternalReg_reg[1][137]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][138] has multiple drivers: U3/InternalReg_reg[1][138]__0/Q, and U3/InternalReg_reg[1][138]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][139] has multiple drivers: U3/InternalReg_reg[1][139]/Q, and U3/InternalReg_reg[1][139]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][13] has multiple drivers: U3/InternalReg_reg[1][13]/Q, and U3/InternalReg_reg[1][13]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][140] has multiple drivers: U3/InternalReg_reg[1][140]__0/Q, and U3/InternalReg_reg[1][140]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][141] has multiple drivers: U3/InternalReg_reg[1][141]/Q, and U3/InternalReg_reg[1][141]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][142] has multiple drivers: U3/InternalReg_reg[1][142]/Q, and U3/InternalReg_reg[1][142]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][143] has multiple drivers: U3/InternalReg_reg[1][143]/Q, and U3/InternalReg_reg[1][143]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][144] has multiple drivers: U3/InternalReg_reg[1][144]__0/Q, and U3/InternalReg_reg[1][144]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][145] has multiple drivers: U3/InternalReg_reg[1][145]__0/Q, and U3/InternalReg_reg[1][145]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][146] has multiple drivers: U3/InternalReg_reg[1][146]/Q, and U3/InternalReg_reg[1][146]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][147] has multiple drivers: U3/InternalReg_reg[1][147]__0/Q, and U3/InternalReg_reg[1][147]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][148] has multiple drivers: U3/InternalReg_reg[1][148]/Q, and U3/InternalReg_reg[1][148]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][149] has multiple drivers: U3/InternalReg_reg[1][149]/Q, and U3/InternalReg_reg[1][149]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][14] has multiple drivers: U3/InternalReg_reg[1][14]/Q, and U3/InternalReg_reg[1][14]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][150] has multiple drivers: U3/InternalReg_reg[1][150]__0/Q, and U3/InternalReg_reg[1][150]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][151] has multiple drivers: U3/InternalReg_reg[1][151]__0/Q, and U3/InternalReg_reg[1][151]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][152] has multiple drivers: U3/InternalReg_reg[1][152]/Q, and U3/InternalReg_reg[1][152]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][153] has multiple drivers: U3/InternalReg_reg[1][153]/Q, and U3/InternalReg_reg[1][153]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][154] has multiple drivers: U3/InternalReg_reg[1][154]__0/Q, and U3/InternalReg_reg[1][154]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][155] has multiple drivers: U3/InternalReg_reg[1][155]/Q, and U3/InternalReg_reg[1][155]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][156] has multiple drivers: U3/InternalReg_reg[1][156]__0/Q, and U3/InternalReg_reg[1][156]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][157] has multiple drivers: U3/InternalReg_reg[1][157]/Q, and U3/InternalReg_reg[1][157]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][158] has multiple drivers: U3/InternalReg_reg[1][158]/Q, and U3/InternalReg_reg[1][158]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][159] has multiple drivers: U3/InternalReg_reg[1][159]__0/Q, and U3/InternalReg_reg[1][159]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][15] has multiple drivers: U3/InternalReg_reg[1][15]/Q, and U3/InternalReg_reg[1][15]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][160] has multiple drivers: U3/InternalReg_reg[1][160]/Q, and U3/InternalReg_reg[1][160]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][161] has multiple drivers: U3/InternalReg_reg[1][161]__0/Q, and U3/InternalReg_reg[1][161]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][162] has multiple drivers: U3/InternalReg_reg[1][162]__0/Q, and U3/InternalReg_reg[1][162]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][163] has multiple drivers: U3/InternalReg_reg[1][163]/Q, and U3/InternalReg_reg[1][163]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][164] has multiple drivers: U3/InternalReg_reg[1][164]/Q, and U3/InternalReg_reg[1][164]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][165] has multiple drivers: U3/InternalReg_reg[1][165]/Q, and U3/InternalReg_reg[1][165]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][166] has multiple drivers: U3/InternalReg_reg[1][166]__0/Q, and U3/InternalReg_reg[1][166]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][167] has multiple drivers: U3/InternalReg_reg[1][167]__0/Q, and U3/InternalReg_reg[1][167]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][168] has multiple drivers: U3/InternalReg_reg[1][168]/Q, and U3/InternalReg_reg[1][168]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][169] has multiple drivers: U3/InternalReg_reg[1][169]/Q, and U3/InternalReg_reg[1][169]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][16] has multiple drivers: U3/InternalReg_reg[1][16]/Q, and U3/InternalReg_reg[1][16]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][170] has multiple drivers: U3/InternalReg_reg[1][170]/Q, and U3/InternalReg_reg[1][170]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][171] has multiple drivers: U3/InternalReg_reg[1][171]/Q, and U3/InternalReg_reg[1][171]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][172] has multiple drivers: U3/InternalReg_reg[1][172]__0/Q, and U3/InternalReg_reg[1][172]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][173] has multiple drivers: U3/InternalReg_reg[1][173]/Q, and U3/InternalReg_reg[1][173]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][174] has multiple drivers: U3/InternalReg_reg[1][174]/Q, and U3/InternalReg_reg[1][174]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][175] has multiple drivers: U3/InternalReg_reg[1][175]/Q, and U3/InternalReg_reg[1][175]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][176] has multiple drivers: U3/InternalReg_reg[1][176]__0/Q, and U3/InternalReg_reg[1][176]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][177] has multiple drivers: U3/InternalReg_reg[1][177]__0/Q, and U3/InternalReg_reg[1][177]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][178] has multiple drivers: U3/InternalReg_reg[1][178]__0/Q, and U3/InternalReg_reg[1][178]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][179] has multiple drivers: U3/InternalReg_reg[1][179]/Q, and U3/InternalReg_reg[1][179]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][17] has multiple drivers: U3/InternalReg_reg[1][17]/Q, and U3/InternalReg_reg[1][17]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][180] has multiple drivers: U3/InternalReg_reg[1][180]__0/Q, and U3/InternalReg_reg[1][180]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][181] has multiple drivers: U3/InternalReg_reg[1][181]__0/Q, and U3/InternalReg_reg[1][181]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][182] has multiple drivers: U3/InternalReg_reg[1][182]/Q, and U3/InternalReg_reg[1][182]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][183] has multiple drivers: U3/InternalReg_reg[1][183]/Q, and U3/InternalReg_reg[1][183]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][184] has multiple drivers: U3/InternalReg_reg[1][184]/Q, and U3/InternalReg_reg[1][184]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][185] has multiple drivers: U3/InternalReg_reg[1][185]/Q, and U3/InternalReg_reg[1][185]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][186] has multiple drivers: U3/InternalReg_reg[1][186]/Q, and U3/InternalReg_reg[1][186]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][187] has multiple drivers: U3/InternalReg_reg[1][187]__0/Q, and U3/InternalReg_reg[1][187]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][188] has multiple drivers: U3/InternalReg_reg[1][188]__0/Q, and U3/InternalReg_reg[1][188]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][189] has multiple drivers: U3/InternalReg_reg[1][189]/Q, and U3/InternalReg_reg[1][189]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U3/InternalReg[1][18] has multiple drivers: U3/InternalReg_reg[1][18]/Q, and U3/InternalReg_reg[1][18]__0/Q.
+INFO: [Common 17-14] Message 'DRC MDRV-1' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Project 1-461] DRC finished with 512 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 967.934 ; gain = 26.957
+INFO: [Common 17-83] Releasing license: Implementation
+13 Infos, 0 Warnings, 0 Critical Warnings and 101 Errors encountered.
+opt_design failed
+ERROR: [Common 17-39] 'opt_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 21 16:01:11 2023...

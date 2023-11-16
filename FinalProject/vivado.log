@@ -1,0 +1,966 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon Jul 17 12:15:07 2023
+# Process ID: 11568
+# Current directory: C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10584 C:\Users\Owner\OneDrive - Texas State University\Desktop\EE4321HDL\FinalProject\HDLFinalProject.xpr
+# Log file: C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/vivado.log
+# Journal file: C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject\vivado.jou
+# Running On: EvanMegaMachine, OS: Windows, CPU Frequency: 3696 MHz, CPU Physical cores: 6, Host memory: 17085 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/HDLFinalProject.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/Users/evanr/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/HDLFinalProject.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 1159.453 ; gain = 279.875
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/HDLFinalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/HDLFinalProject.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/ExeEngine.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Execution
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/Instruct.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/IntegerAlu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IntegerAlu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/MainMem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MainMemory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/MatrixAlu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MatrixAlu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/testBench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TestMatrix
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/Top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/HDLFinalProject.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/HDLFinalProject.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot top_behav xil_defaultlib.top xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot top_behav xil_defaultlib.top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3705] select index 3 into 'InternalReg' is out of bounds [C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/Top.sv:65]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/HDLFinalProject.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/HDLFinalProject.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_ExeEngine_sv_2601830930
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.MainMemory
+Compiling module xil_defaultlib.Execution
+Compiling module xil_defaultlib.MatrixAlu
+Compiling module xil_defaultlib.IntegerAlu
+Compiling module xil_defaultlib.TestMatrix
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/HDLFinalProject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_behav -key {Behavioral:sim_1:Functional:top} -tclbatch {top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+the instr is: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+the instr is: 00000000000000000000000000000000000000000000000000000000xxxxxxxx
+the instr is: 0000000000000000000000000000000000000000000000000000000000000000
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+address is: 0010_000000000000
+exedataout is: 0008000c00080006000c0010000d0009000a00090005000d000c0003000a0006
+
+00006 0000a 00003 0000c 
+0000d 00005 00009 0000a 
+00009 0000d 00010 0000c 
+00006 00008 0000c 00008 
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+address is: 0010_000000000001
+exedataout is: 000300040007000800070008000e000700100009000c000b000c000500050006
+
+[i:0][j:0]00006 [i:0][j:1]00005 [i:0][j:2]00005 [i:0][j:3]0000c 
+[i:1][j:0]0000b [i:1][j:1]0000c [i:1][j:2]00009 [i:1][j:3]00010 
+[i:2][j:0]00007 [i:2][j:1]0000e [i:2][j:2]00008 [i:2][j:3]00007 
+[i:3][j:0]00008 [i:3][j:1]00007 [i:3][j:2]00004 [i:3][j:3]00003 
+
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+address is: 0010_000000000011
+exedataout is: 0000000000000000000000000000000000000000000000000000000000000003
+Value of op is 03
+MAdd
+result: 
+0000c 0000f 00008 00018 
+00018 00011 00012 0001a 
+00010 0001b 00018 00013 
+0000e 0000f 00010 0000b 
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+address is: 0010_000000000000
+exedataout is: 000b0010000f000e00130018001b0010001a00120011001800180008000f000c
+
+0000c 0000f 00008 00018 
+00018 00011 00012 0001a 
+00010 0001b 00018 00013 
+0000e 0000f 00010 0000b 
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+address is: 0010_000000000001
+exedataout is: 0008000c00080006000c0010000d0009000a00090005000d000c0003000a0006
+
+[i:0][j:0]00006 [i:0][j:1]0000a [i:0][j:2]00003 [i:0][j:3]0000c 
+[i:1][j:0]0000d [i:1][j:1]00005 [i:1][j:2]00009 [i:1][j:3]0000a 
+[i:2][j:0]00009 [i:2][j:1]0000d [i:2][j:2]00010 [i:2][j:3]0000c 
+[i:3][j:0]00006 [i:3][j:1]00008 [i:3][j:2]0000c [i:3][j:3]00008 
+
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+address is: 0010_000000000011
+exedataout is: 0000000000000000000000000000000000000000000000000000000000000004
+Value of op is 04
+MSub
+result: 
+00006 00005 00005 0000c 
+0000b 0000c 00009 00010 
+00007 0000e 00008 00007 
+00008 00007 00004 00003 
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+address is: 0010_000000000000
+exedataout is: 000b0010000f000e00130018001b0010001a00120011001800180008000f000c
+
+0000c 0000f 00008 00018 
+00018 00011 00012 0001a 
+00010 0001b 00018 00013 
+0000e 0000f 00010 0000b 
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+address is: 0010_000000000001
+exedataout is: 0008000c00080006000c0010000d0009000a00090005000d000c0003000a0006
+
+[i:0][j:0]00006 [i:0][j:1]0000a [i:0][j:2]00003 [i:0][j:3]0000c 
+[i:1][j:0]0000d [i:1][j:1]00005 [i:1][j:2]00009 [i:1][j:3]0000a 
+[i:2][j:0]00009 [i:2][j:1]0000d [i:2][j:2]00010 [i:2][j:3]0000c 
+[i:3][j:0]00006 [i:3][j:1]00008 [i:3][j:2]0000c [i:3][j:3]00008 
+
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+address is: 0010_000000000011
+exedataout is: 0000000000000000000000000000000000000000000000000000000000000005
+Value of op is 05
+Mtranspose
+result: 
+0000c 00018 00010 0000e 
+0000f 00011 0001b 0000f 
+00008 00012 00018 00010 
+00018 0001a 00013 0000b 
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+address is: 0010_000000000000
+exedataout is: 000300040007000800070008000e000700100009000c000b000c000500050006
+
+00006 00005 00005 0000c 
+0000b 0000c 00009 00010 
+00007 0000e 00008 00007 
+00008 00007 00004 00003 
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+address is: 0010_000000000001
+exedataout is: 0000000000000000000000000000000000000000000000000000000000000013
+
+[i:0][j:0]00013 [i:0][j:1]00000 [i:0][j:2]00000 [i:0][j:3]00000 
+[i:1][j:0]00000 [i:1][j:1]00000 [i:1][j:2]00000 [i:1][j:3]00000 
+[i:2][j:0]00000 [i:2][j:1]00000 [i:2][j:2]00000 [i:2][j:3]00000 
+[i:3][j:0]00000 [i:3][j:1]00000 [i:3][j:2]00000 [i:3][j:3]00000 
+
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+address is: 0010_000000000011
+exedataout is: 0000000000000000000000000000000000000000000000000000000000000007
+Value of op is 07
+MScaleImm 
+hex imm: 0013 
+result: 
+00072 0005f 0005f 000e4 
+000d1 000e4 000ab 00130 
+00085 0010a 00098 00085 
+00098 00085 0004c 00039 
+
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+address is: 0010_000000000000
+exedataout is: 000b0013001a00180010001800120008000f001b0011000f000e00100018000c
+
+0000c 00018 00010 0000e 
+0000f 00011 0001b 0000f 
+00008 00012 00018 00010 
+00018 0001a 00013 0000b 
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+address is: 0010_000000000001
+exedataout is: 000300040007000800070008000e000700100009000c000b000c000500050006
+
+[i:0][j:0]00006 [i:0][j:1]00005 [i:0][j:2]00005 [i:0][j:3]0000c 
+[i:1][j:0]0000b [i:1][j:1]0000c [i:1][j:2]00009 [i:1][j:3]00010 
+[i:2][j:0]00007 [i:2][j:1]0000e [i:2][j:2]00008 [i:2][j:3]00007 
+[i:3][j:0]00008 [i:3][j:1]00007 [i:3][j:2]00004 [i:3][j:3]00003 
+
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+address is: 0010_000000000011
+exedataout is: 0000000000000000000000000000000000000000000000000000000000000000
+Value of op is 00
+MMult1
+result: 
+00230 0029e 001cc 002aa 
+0024a 002fa 001f8 002ae 
+0021e 002c0 001ca 00258 
+0028b 00307 00226 00366 
+
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 1174.797 ; gain = 15.344
+run all
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+address is: 0010_000000000000
+exedataout is: 000b0013001a00180010001800120008000f001b0011000f000e00100018000c
+
+0000c 00018 00010 0000e 
+0000f 00011 0001b 0000f 
+00008 00012 00018 00010 
+00018 0001a 00013 0000b 
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+address is: 0010_000000000001
+exedataout is: 000300040007000800070008000e000700100009000c000b000c000500050006
+
+[i:0][j:0]00006 [i:0][j:1]00005 [i:0][j:2]00005 [i:0][j:3]0000c 
+[i:1][j:0]0000b [i:1][j:1]0000c [i:1][j:2]00009 [i:1][j:3]00010 
+[i:2][j:0]00007 [i:2][j:1]0000e [i:2][j:2]00008 [i:2][j:3]00007 
+[i:3][j:0]00008 [i:3][j:1]00007 [i:3][j:2]00004 [i:3][j:3]00003 
+
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+address is: 0010_000000000011
+exedataout is: 0000000000000000000000000000000000000000000000000000000000000001
+Value of op is 01
+*MMult2a
+result: 
+[i:0][j:0]00150 [i:0][j:1]0015c [i:0][j:2]00114 [i:0][j:3]00210 
+[i:1][j:0]00115 [i:1][j:1]00117 [i:1][j:2]000e4 [i:1][j:3]001c4 
+[i:2][j:0]000f6 [i:2][j:1]00100 [i:2][j:2]000ca [i:2][j:3]00180 
+[i:3][j:0]001ae [i:3][j:1]001b0 [i:3][j:2]00162 [i:3][j:3]002c0 
+
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+address is: 0010_000000000000
+exedataout is: 000b0013001a00180010001800120008000f001b0011000f000e00100018000c
+
+0000c 00018 00010 0000e 
+0000f 00011 0001b 0000f 
+00008 00012 00018 00010 
+00018 0001a 00013 0000b 
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+address is: 0010_000000000001
+exedataout is: 000300040007000800070008000e000700100009000c000b000c000500050006
+
+[i:0][j:0]00006 [i:0][j:1]00005 [i:0][j:2]00005 [i:0][j:3]0000c 
+[i:1][j:0]0000b [i:1][j:1]0000c [i:1][j:2]00009 [i:1][j:3]00010 
+[i:2][j:0]00007 [i:2][j:1]0000e [i:2][j:2]00008 [i:2][j:3]00007 
+[i:3][j:0]00008 [i:3][j:1]00007 [i:3][j:2]00004 [i:3][j:3]00003 
+
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+address is: 0010_000000000011
+exedataout is: 0000000000000000000000000000000000000000000000000000000000000002
+Value of op is 02
+*MMult2b
+result: 
+[i:0][j:0]00230 [i:0][j:1]0029e [i:0][j:2]00000 [i:0][j:3]00000 
+[i:1][j:0]0024a [i:1][j:1]002fa [i:1][j:2]00000 [i:1][j:3]00000 
+[i:2][j:0]00000 [i:2][j:1]00000 [i:2][j:2]00000 [i:2][j:3]00000 
+[i:3][j:0]00000 [i:3][j:1]00000 [i:3][j:2]00000 [i:3][j:3]00000 
+
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+memory location 0 = 0008000c00080006000c0010000d0009000a00090005000d000c0003000a0006
+memory location 1 = 000300040007000800070008000e000700100009000c000b000c000500050006
+memory location 2 RESULT = 000b0010000f000e00130018001b0010001a00120011001800180008000f000c
+memory location 3 = 000300040007000800070008000e000700100009000c000b000c000500050006
+memory location 4 = 000b0013001a00180010001800120008000f001b0011000f000e00100018000c
+memory location 5 = 036602260307028b025801ca02c0021e02ae01f802fa024a02aa01cc029e0230
+memory location 6 = 02c0016201b001ae018000ca010000f601c400e40117011502100114015c0150
+memory location 7 = 00000000000000000000000000000000000000000000000002fa024a029e0230
+memory location 8 = 0000000000000000000000000000000000000000000000000000000000000000
+memory location 9 = 0000000000000000000000000000000000000000000000000000000000000000
+memory location 10 = 0000000000000000000000000000000000000000000000000000000000000024
+memory location 11 = 0000000000000000000000000000000000000000000000000000000000000000
+memory location 12 = 0000000000000000000000000000000000000000000000000000000000000000
+memory location 13 = 0000000000000000000000000000000000000000000000000000000000000000
+Imternal Reg location 0 = 0000000000000000000000000000000000000000000000000000000000000013
+Internal reg location 1 = 0039004c0085009800850098010a0085013000ab00e400d100e4005f005f0072
+Internal reg location 2 = 000000000000000000000000000000000000000000000000000000000000001e
+Internal reg location 3 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+memory location 0 is Correct
+memory location 1 is Correct
+memory location 2 is Correct
+memory location 3 is Correct
+memory location 4 is Correct
+memory location 5 is Correct
+memory location 6 is Correct
+memory location 7 is Correct
+memory location 8 is Correct
+memory location 9 is Correct
+memory location 10 is Correct
+memory location 11 is Correct
+Interal reg location 0 is Correct
+Internal Reg location 1 is Correct
+Internal Reg location 2 is Correct
+********************************************
+ Project PASSED memory check
+********************************************
+the instr is: 00000000000000000000000000000000000000000000000000000000ff000000
+$stop called at time : 1765 ns : File "C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/ExeEngine.sv" Line 115
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'top'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/HDLFinalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/HDLFinalProject.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj top_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'top'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/HDLFinalProject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/HDLFinalProject.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot top_behav xil_defaultlib.top xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot top_behav xil_defaultlib.top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3705] select index 3 into 'InternalReg' is out of bounds [C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/Top.sv:65]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+the instr is: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+the instr is: 00000000000000000000000000000000000000000000000000000000xxxxxxxx
+the instr is: 0000000000000000000000000000000000000000000000000000000000000000
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+address is: 0010_000000000000
+exedataout is: 0008000c00080006000c0010000d0009000a00090005000d000c0003000a0006
+
+00006 0000a 00003 0000c 
+0000d 00005 00009 0000a 
+00009 0000d 00010 0000c 
+00006 00008 0000c 00008 
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+address is: 0010_000000000001
+exedataout is: 000300040007000800070008000e000700100009000c000b000c000500050006
+
+[i:0][j:0]00006 [i:0][j:1]00005 [i:0][j:2]00005 [i:0][j:3]0000c 
+[i:1][j:0]0000b [i:1][j:1]0000c [i:1][j:2]00009 [i:1][j:3]00010 
+[i:2][j:0]00007 [i:2][j:1]0000e [i:2][j:2]00008 [i:2][j:3]00007 
+[i:3][j:0]00008 [i:3][j:1]00007 [i:3][j:2]00004 [i:3][j:3]00003 
+
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+address is: 0010_000000000011
+exedataout is: 0000000000000000000000000000000000000000000000000000000000000003
+Value of op is 03
+MAdd
+result: 
+0000c 0000f 00008 00018 
+00018 00011 00012 0001a 
+00010 0001b 00018 00013 
+0000e 0000f 00010 0000b 
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000003020001
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000010100a0b
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+address is: 0010_000000000000
+exedataout is: 000b0010000f000e00130018001b0010001a00120011001800180008000f000c
+
+0000c 0000f 00008 00018 
+00018 00011 00012 0001a 
+00010 0001b 00018 00013 
+0000e 0000f 00010 0000b 
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+address is: 0010_000000000001
+exedataout is: 0008000c00080006000c0010000d0009000a00090005000d000c0003000a0006
+
+[i:0][j:0]00006 [i:0][j:1]0000a [i:0][j:2]00003 [i:0][j:3]0000c 
+[i:1][j:0]0000d [i:1][j:1]00005 [i:1][j:2]00009 [i:1][j:3]0000a 
+[i:2][j:0]00009 [i:2][j:1]0000d [i:2][j:2]00010 [i:2][j:3]0000c 
+[i:3][j:0]00006 [i:3][j:1]00008 [i:3][j:2]0000c [i:3][j:3]00008 
+
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+address is: 0010_000000000011
+exedataout is: 0000000000000000000000000000000000000000000000000000000000000004
+Value of op is 04
+MSub
+result: 
+00006 00005 00005 0000c 
+0000b 0000c 00009 00010 
+00007 0000e 00008 00007 
+00008 00007 00004 00003 
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000004030200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+address is: 0010_000000000000
+exedataout is: 000b0010000f000e00130018001b0010001a00120011001800180008000f000c
+
+0000c 0000f 00008 00018 
+00018 00011 00012 0001a 
+00010 0001b 00018 00013 
+0000e 0000f 00010 0000b 
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+address is: 0010_000000000001
+exedataout is: 0008000c00080006000c0010000d0009000a00090005000d000c0003000a0006
+
+[i:0][j:0]00006 [i:0][j:1]0000a [i:0][j:2]00003 [i:0][j:3]0000c 
+[i:1][j:0]0000d [i:1][j:1]00005 [i:1][j:2]00009 [i:1][j:3]0000a 
+[i:2][j:0]00009 [i:2][j:1]0000d [i:2][j:2]00010 [i:2][j:3]0000c 
+[i:3][j:0]00006 [i:3][j:1]00008 [i:3][j:2]0000c [i:3][j:3]00008 
+
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+address is: 0010_000000000011
+exedataout is: 0000000000000000000000000000000000000000000000000000000000000005
+Value of op is 05
+Mtranspose
+result: 
+0000c 00018 00010 0000e 
+0000f 00011 0001b 0000f 
+00008 00012 00018 00010 
+00018 0001a 00013 0000b 
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000005040200
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+address is: 0010_000000000000
+exedataout is: 000300040007000800070008000e000700100009000c000b000c000500050006
+
+00006 00005 00005 0000c 
+0000b 0000c 00009 00010 
+00007 0000e 00008 00007 
+00008 00007 00004 00003 
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+address is: 0010_000000000001
+exedataout is: 0000000000000000000000000000000000000000000000000000000000000013
+
+[i:0][j:0]00013 [i:0][j:1]00000 [i:0][j:2]00000 [i:0][j:3]00000 
+[i:1][j:0]00000 [i:1][j:1]00000 [i:1][j:2]00000 [i:1][j:3]00000 
+[i:2][j:0]00000 [i:2][j:1]00000 [i:2][j:2]00000 [i:2][j:3]00000 
+[i:3][j:0]00000 [i:3][j:1]00000 [i:3][j:2]00000 [i:3][j:3]00000 
+
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+address is: 0010_000000000011
+exedataout is: 0000000000000000000000000000000000000000000000000000000000000007
+Value of op is 07
+MScaleImm 
+hex imm: 0013 
+result: 
+00072 0005f 0005f 000e4 
+000d1 000e4 000ab 00130 
+00085 0010a 00098 00085 
+00098 00085 0004c 00039 
+
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+the instr is: 0000000000000000000000000000000000000000000000000000000007110310
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+address is: 0010_000000000000
+exedataout is: 000b0013001a00180010001800120008000f001b0011000f000e00100018000c
+
+0000c 00018 00010 0000e 
+0000f 00011 0001b 0000f 
+00008 00012 00018 00010 
+00018 0001a 00013 0000b 
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+address is: 0010_000000000001
+exedataout is: 000300040007000800070008000e000700100009000c000b000c000500050006
+
+[i:0][j:0]00006 [i:0][j:1]00005 [i:0][j:2]00005 [i:0][j:3]0000c 
+[i:1][j:0]0000b [i:1][j:1]0000c [i:1][j:2]00009 [i:1][j:3]00010 
+[i:2][j:0]00007 [i:2][j:1]0000e [i:2][j:2]00008 [i:2][j:3]00007 
+[i:3][j:0]00008 [i:3][j:1]00007 [i:3][j:2]00004 [i:3][j:3]00003 
+
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+address is: 0010_000000000011
+exedataout is: 0000000000000000000000000000000000000000000000000000000000000000
+Value of op is 00
+MMult1
+result: 
+00230 0029e 001cc 002aa 
+0024a 002fa 001f8 002ae 
+0021e 002c0 001ca 00258 
+0028b 00307 00226 00366 
+
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000000050403
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1201.137 ; gain = 0.000
+step
+Stopped at time : 1005 ns : File "C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/testBench.sv" Line 16
+run 10 us
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+address is: 0010_000000000000
+exedataout is: 000b0013001a00180010001800120008000f001b0011000f000e00100018000c
+
+0000c 00018 00010 0000e 
+0000f 00011 0001b 0000f 
+00008 00012 00018 00010 
+00018 0001a 00013 0000b 
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+address is: 0010_000000000001
+exedataout is: 000300040007000800070008000e000700100009000c000b000c000500050006
+
+[i:0][j:0]00006 [i:0][j:1]00005 [i:0][j:2]00005 [i:0][j:3]0000c 
+[i:1][j:0]0000b [i:1][j:1]0000c [i:1][j:2]00009 [i:1][j:3]00010 
+[i:2][j:0]00007 [i:2][j:1]0000e [i:2][j:2]00008 [i:2][j:3]00007 
+[i:3][j:0]00008 [i:3][j:1]00007 [i:3][j:2]00004 [i:3][j:3]00003 
+
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+address is: 0010_000000000011
+exedataout is: 0000000000000000000000000000000000000000000000000000000000000001
+Value of op is 01
+*MMult2a
+result: 
+[i:0][j:0]00150 [i:0][j:1]0015c [i:0][j:2]00114 [i:0][j:3]00210 
+[i:1][j:0]00115 [i:1][j:1]00117 [i:1][j:2]000e4 [i:1][j:3]001c4 
+[i:2][j:0]000f6 [i:2][j:1]00100 [i:2][j:2]000ca [i:2][j:3]00180 
+[i:3][j:0]001ae [i:3][j:1]001b0 [i:3][j:2]00162 [i:3][j:3]002c0 
+
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+the instr is: 0000000000000000000000000000000000000000000000000000000001060403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+address is: 0010_000000000000
+exedataout is: 000b0013001a00180010001800120008000f001b0011000f000e00100018000c
+
+0000c 00018 00010 0000e 
+0000f 00011 0001b 0000f 
+00008 00012 00018 00010 
+00018 0001a 00013 0000b 
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+address is: 0010_000000000001
+exedataout is: 000300040007000800070008000e000700100009000c000b000c000500050006
+
+[i:0][j:0]00006 [i:0][j:1]00005 [i:0][j:2]00005 [i:0][j:3]0000c 
+[i:1][j:0]0000b [i:1][j:1]0000c [i:1][j:2]00009 [i:1][j:3]00010 
+[i:2][j:0]00007 [i:2][j:1]0000e [i:2][j:2]00008 [i:2][j:3]00007 
+[i:3][j:0]00008 [i:3][j:1]00007 [i:3][j:2]00004 [i:3][j:3]00003 
+
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+address is: 0010_000000000011
+exedataout is: 0000000000000000000000000000000000000000000000000000000000000002
+Value of op is 02
+*MMult2b
+result: 
+[i:0][j:0]00230 [i:0][j:1]0029e [i:0][j:2]00000 [i:0][j:3]00000 
+[i:1][j:0]0024a [i:1][j:1]002fa [i:1][j:2]00000 [i:1][j:3]00000 
+[i:2][j:0]00000 [i:2][j:1]00000 [i:2][j:2]00000 [i:2][j:3]00000 
+[i:3][j:0]00000 [i:3][j:1]00000 [i:3][j:2]00000 [i:3][j:3]00000 
+
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 0000000000000000000000000000000000000000000000000000000002070403
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 00000000000000000000000000000000000000000000000000000000120a0100
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 0000000000000000000000000000000000000000000000000000000011120a01
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+the instr is: 00000000000000000000000000000000000000000000000000000000130b0a12
+memory location 0 = 0008000c00080006000c0010000d0009000a00090005000d000c0003000a0006
+memory location 1 = 000300040007000800070008000e000700100009000c000b000c000500050006
+memory location 2 RESULT = 000b0010000f000e00130018001b0010001a00120011001800180008000f000c
+memory location 3 = 000300040007000800070008000e000700100009000c000b000c000500050006
+memory location 4 = 000b0013001a00180010001800120008000f001b0011000f000e00100018000c
+memory location 5 = 036602260307028b025801ca02c0021e02ae01f802fa024a02aa01cc029e0230
+memory location 6 = 02c0016201b001ae018000ca010000f601c400e40117011502100114015c0150
+memory location 7 = 00000000000000000000000000000000000000000000000002fa024a029e0230
+memory location 8 = 0000000000000000000000000000000000000000000000000000000000000000
+memory location 9 = 0000000000000000000000000000000000000000000000000000000000000000
+memory location 10 = 0000000000000000000000000000000000000000000000000000000000000024
+memory location 11 = 0000000000000000000000000000000000000000000000000000000000000000
+memory location 12 = 0000000000000000000000000000000000000000000000000000000000000000
+memory location 13 = 0000000000000000000000000000000000000000000000000000000000000000
+Imternal Reg location 0 = 0000000000000000000000000000000000000000000000000000000000000013
+Internal reg location 1 = 0039004c0085009800850098010a0085013000ab00e400d100e4005f005f0072
+Internal reg location 2 = 000000000000000000000000000000000000000000000000000000000000001e
+Internal reg location 3 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+memory location 0 is Correct
+memory location 1 is Correct
+memory location 2 is Correct
+memory location 3 is Correct
+memory location 4 is Correct
+memory location 5 is Correct
+memory location 6 is Correct
+memory location 7 is Correct
+memory location 8 is Correct
+memory location 9 is Correct
+memory location 10 is Correct
+memory location 11 is Correct
+Interal reg location 0 is Correct
+Internal Reg location 1 is Correct
+Internal Reg location 2 is Correct
+********************************************
+ Project PASSED memory check
+********************************************
+the instr is: 00000000000000000000000000000000000000000000000000000000ff000000
+$stop called at time : 1765 ns : File "C:/Users/Owner/OneDrive - Texas State University/Desktop/EE4321HDL/FinalProject/ExeEngine.sv" Line 115
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jul 17 12:18:00 2023...

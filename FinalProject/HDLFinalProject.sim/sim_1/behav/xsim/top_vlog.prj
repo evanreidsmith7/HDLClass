@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../ExeEngine.sv" \
+"../../../../Instruct.sv" \
+"../../../../IntegerAlu.sv" \
+"../../../../MainMem.sv" \
+"../../../../MatrixAlu.sv" \
+"../../../../testBench.sv" \
+"../../../../Top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
